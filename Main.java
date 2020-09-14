@@ -1,6 +1,7 @@
+import java.util.Scanner;
 /**
  *
- * @author 
+ * @author Darian Pajic
  */
 public class Main {
 
@@ -9,7 +10,20 @@ public class Main {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    // TODO code application logic here
+  Scanner input = new Scanner(System.in);
+
+  // ask the user to enter an integer 
+  System.out.println("Please enter an integer:");
+  int num = input.nextInt();
     
+  // find out if the integer is odd or even
+  if (num % 2 == 0){
+    System.out.println(num + " is an even number");
+  }else{
+    System.out.println(num + " is an odd number");
+    
+  }
+
+  
   }
 }
