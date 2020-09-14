@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- *
+ * program to find if integer is odd or even
  * @author Darian Pajic
  */
 public class Main {
